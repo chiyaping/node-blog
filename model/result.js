@@ -1,6 +1,6 @@
-exports.createResult = function(success, data) {
+exports.createResult = function(code, data) {
     var result = {};
-    result.success = success;
+    result.code = code;
     result.data = data;
     return result;
 };
